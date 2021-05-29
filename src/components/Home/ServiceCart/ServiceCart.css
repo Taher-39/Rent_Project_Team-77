@@ -1,0 +1,21 @@
+.view-btn{
+    border: none;
+    background-color: rgb(35, 82, 51);
+    color: white;
+    padding: 8px 10px;
+}
+.service-cart{
+    justify-content: center;
+    margin-bottom: 25px;
+    border: none;
+}
+.card-body{
+    padding: 20px;
+}
+.icon-area{
+    color: gray;
+}
+.price{
+    color: rgb(35, 82, 51);
+    font-weight: 700;
+}

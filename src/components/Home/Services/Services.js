@@ -62,7 +62,7 @@ const Services = () => {
                 <h5>Rent Your dream Home</h5>
                 <h3>Make Your Home Experience best with Home77</h3>
             </div>
-            <div className="row">
+            <div className="row mt-4">
             {
                 serviceData.map(service =><ServiceCart service={service}/>)
             }
