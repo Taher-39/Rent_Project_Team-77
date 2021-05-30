@@ -8,7 +8,7 @@
     margin-left: 40px;
 }
 .header-area{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
     padding: 50px;
     background-image:linear-gradient(45deg , rgb(250, 203, 159), rgb(234, 168, 236));
@@ -19,7 +19,7 @@
     /* color: black; */
     font-family: 'Roboto', sans-serif;
 }
-#cv-download{
+/* #cv-download{
     border: 2px solid rgb(43, 117, 235);
     padding: 8px 20px;
     border-radius: 25px;
@@ -29,21 +29,27 @@
 #cv-download:hover{
     background-color:rgb(43, 117, 235);
     color: white;
-}
+} */
+
 .book-btn{
     padding: 8px 25px;
     border: none;
     border-radius:10px;
 }
 
+.book-btn:hover{
+    background-color:rgb(43, 117, 235);
+    color: white;
+}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .header-area{
         display:grid;
         grid-template-columns: repeat(1,1fr);
     }
     .header-img{
         margin-left: 0px;
+        margin-top: 30px;
     }
     .intro-img{
         width: 100%;

@@ -1,24 +1,26 @@
-import React from "react";
 import './App.css';
 import Home from './components/Home/Home/Home';
-import Apartment from './components/Apartment/Apartment';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+import { Route, Switch } from 'react-router';
+import Login from './components/LogIn/Login';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Details from './components/DetailsPage/Details';
 
 export default function App() {
   return (
-    <Router>
+    <div>
+      <Router>
         <Switch>
-          <Route path="/apartment">
-            <Apartment></Apartment>
+          <Route exact path="/">
+            <Home/>
           </Route>
-          <Route path="/">
-            <Home />
+          <Route path="/login">
+            <Login></Login>
+          </Route>
+          <Route path="/details">
+            <Details></Details>
           </Route>
         </Switch>
-    </Router>
+      </Router>
+    </div>
   );
 }

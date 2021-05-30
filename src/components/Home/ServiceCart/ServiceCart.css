@@ -3,6 +3,11 @@
     background-color: rgb(35, 82, 51);
     color: white;
     padding: 8px 10px;
+    text-decoration: none;
+}
+
+.view-btn:hover{
+    color: white;
 }
 .service-cart{
     justify-content: center;

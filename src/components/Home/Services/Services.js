@@ -1,70 +1,23 @@
 import React from 'react';
-import washingTonImg from '../../../images/images/Rectangle 410.png'
 import ServiceCart from '../ServiceCart/ServiceCart';
-import './Services.css'
-
-const serviceData= [
-    {
-        title: "Washington Plaza",
-        room:"3 Bedrooms",
-        bath:"2 Bathroom",
-        location:"32/A Washington, USA",
-        price: '$320',
-        img:{washingTonImg}
-    },
-    {
-        title: "Washington Plaza",
-        room:"3 Bedrooms",
-        bath:"2 Bathroom",
-        location:"32/A Washington, USA",
-        price: '$320',
-        img:{washingTonImg}
-    },
-    {
-        title: "Washington Plaza",
-        room:"3 Bedrooms",
-        bath:"2 Bathroom",
-        location:"32/A Washington, USA",
-        price: '$320',
-        img:{washingTonImg}
-    },
-    {
-        title: "Washington Plaza",
-        room:"3 Bedrooms",
-        bath:"2 Bathroom",
-        location:"32/A Washington, USA",
-        price: '$320',
-        img:{washingTonImg}
-    },
-    {
-        title: "Washington Plaza",
-        room:"3 Bedrooms",
-        bath:"2 Bathroom",
-        location:"32/A Washington, USA",
-        price: '$320',
-        img:{washingTonImg}
-    },
-    {
-        title: "Washington Plaza",
-        room:"3 Bedrooms",
-        bath:"2 Bathroom",
-        location:"32/A Washington, USA",
-        price: '$320',
-        img:{washingTonImg}
-    }
-]
-
+import './Services.css';
+import { useSelector } from 'react-redux';
 
 const Services = () => {
+
+    const homePageData = useSelector((state) => {
+        return state.data.homePageData;
+    })
+
     return (
-        <div className="container">
-            <div className="service-header">
-                <h5>Rent Your dream Home</h5>
-                <h3>Make Your Home Experience best with Home77</h3>
+        <div id="service" className="container">
+            <div className="service-header mt-3 mb-5">
+                <h4 className="mb-3">Rent Your Dream Home</h4>
+                <h3 className="">Make Your Home Experience Best With Royal Housing LTD</h3>
             </div>
             <div className="row mt-4">
             {
-                serviceData.map(service =><ServiceCart service={service}/>)
+                homePageData.map(data =><ServiceCart service={data}/>)
             }
             </div>
         </div>
