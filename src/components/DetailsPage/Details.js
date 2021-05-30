@@ -4,6 +4,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 import { useSelector } from 'react-redux';
 import Navbar from '../Home/Navbar/Navbar';
 import './Details.css';
+import Footer from '../Home/Footer/Footer'
 
 const Details = () => {
 
@@ -81,6 +82,10 @@ const Details = () => {
                     </div>
                 </div>
             </div>
+            <div className="mt-5">
+            <Footer/>
+            </div>
+           
         </div>
     );
 };

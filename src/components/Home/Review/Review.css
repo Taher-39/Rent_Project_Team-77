@@ -1,11 +1,11 @@
 .review-sec{
     text-align: center;
 }
-.review-img{
-    height: 150px;
-    width: 150px;
+.review-card img{
+    height: 100px;
+    width: 100px;
 }
-.card{
+.review-card{
     align-items: center;
     border: none;
 }

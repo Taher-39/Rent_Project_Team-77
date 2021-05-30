@@ -10,7 +10,7 @@ const Review = () => {
             <h2 className="mt-3">What we Offer</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4 cards-div">
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 review-card">
                 <img className="review-img" src={img1} class="card-img-top" alt="..."/>
                 <div class="card-body">
                     <h5 class="card-title">Top Class Management</h5>
@@ -19,7 +19,7 @@ const Review = () => {
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 review-card">
                 <img className="review-img" src={img2} class="card-img-top" alt="..."/>
                 <div class="card-body">
                     <h5 class="card-title">Services beyond you thought</h5>
@@ -28,7 +28,7 @@ const Review = () => {
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 review-card">
                 <img className="review-img" src={img3} class="card-img-top" alt="..."/>
                 <div class="card-body">
                     <h5 class="card-title">Perfect choice for you</h5>
