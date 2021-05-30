@@ -1,6 +1,8 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
+import Review from '../Review/Review';
 import Services from '../Services/Services';
 
 const Home = () => {
@@ -9,6 +11,8 @@ const Home = () => {
             <Navbar/>
             <Header/>
             <Services/>
+            <Review/>
+            <Footer/>
         </div>
     );
 };

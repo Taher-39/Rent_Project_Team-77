@@ -5,7 +5,7 @@ import Login from './components/LogIn/Login';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Details from './components/DetailsPage/Details';
 
-function App() {
+export default function App() {
   return (
     <div>
       <Router>
@@ -24,5 +24,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

@@ -1,0 +1,14 @@
+.review-sec{
+    text-align: center;
+}
+.review-img{
+    height: 150px;
+    width: 150px;
+}
+.card{
+    align-items: center;
+    border: none;
+}
+.cards-div{
+    margin-top: 50px;
+}
