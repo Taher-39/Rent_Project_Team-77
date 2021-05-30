@@ -1,0 +1,38 @@
+.detail-header{
+    padding: 0px;
+    background-image: url('../../images/images/Rectangle\ 13.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    background-position: center;
+}
+
+.transparent-div{
+    height: 250px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    padding-top: 100px;
+}
+
+.form-div{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-div input {
+    padding: 5px 10px;
+    border: none;
+}
+
+.form-div textarea{
+    border: none;
+    outline: 0px;
+    padding: 5px 10px;
+}
+
+.price{
+    margin-left: 40%;
+}

@@ -2,19 +2,24 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarker,faBed, faBath } from '@fortawesome/free-solid-svg-icons'
 import './ServiceCart.css'
-import washingTonImg from '../../../images/images/Rectangle 410.png'
+import { useDispatch } from 'react-redux';
+import { showDetail } from '../../../redux/actions/dataAction';
+import { NavLink } from 'react-router-dom';
 
 const ServiceCart = ({service}) => {
+     
     console.log(service)
-    
+
+    const dispatch = useDispatch();
+
     return (
             <div class="col-md-4 service-cart">
             <div class="card h-100">
-            <img src={washingTonImg} class="card-img-top" alt="..."/>
+            <img src={service.img} class="card-img-top" alt="..."/>
             <div class="card-body">
                 <h5 class="card-title">{service.title}</h5>
                 <div>
-                <p className="icon-area"><FontAwesomeIcon icon={faMapMarker} /> {service.room}</p>
+                <p className="icon-area"><FontAwesomeIcon icon={faMapMarker} /> {service.location}</p>
                 </div>
                 <div className="row">
                     <div className="col-md-6">
@@ -25,8 +30,8 @@ const ServiceCart = ({service}) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6"><h3 className="price">{service.price}</h3></div>
-                    <div className="col-md-6"> <button type="" className="view-btn">View Details</button> </div>
+                    <div className="col-md-6"><h3 className="price">{}</h3></div>
+                    <div className="col-md-6"> <NavLink to="/details" onClick={() => dispatch(showDetail(service))} className="view-btn">View Details</NavLink> </div>
                 </div>
             </div>
             </div>

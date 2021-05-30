@@ -1,0 +1,122 @@
+[
+    {   
+        "id": 1,
+        "title": "Washington Plaza",
+        "room":"3 Bed rooms",
+        "bath":"2 bath room",
+        "location": "32/A Washington USA",
+        "price": "$320",
+        "img": "https://i.ibb.co/LYDmvKW/Rectangle-394.png",
+        "imgDetail": {
+            "num1" : "https://i.ibb.co/d4bVs1J/Rectangle-407.png",
+            "num2" : "https://i.ibb.co/98jQrVy/Rectangle-409.png",
+            "num3" : "https://i.ibb.co/spfY9d9/Rectangle-410.png",
+            "num4" : "https://i.ibb.co/zZ9G35f/singlebed.jpg",
+            "num5" : "https://i.ibb.co/QCyy8sV/doublebed.jpg"
+        },
+        "details": {
+            "PropertyDetail" : "3000 sq-ft, 3 Bedroom, Semi-furnished, Luxurious, South facing apartment for rent in Washington, USA",
+            "MoreInfo" : "Family rooms are the largest rooms in our hotel and can accommodate up to 5 guests. Split into two sections, you'll find a queen bed in one and either a single bed or two twin beds in the other. Depending on the configuration, these rooms are either 35 or 40 sq m. Amenities include: Shower Telephone Safe Mini-fridge Satellite LCD TVs (one in each section) Seating unit Hair dryer Free WiFi"
+        }
+    },
+    {   
+        "id": 2,
+        "title": "California Plaza",
+        "room":"3 Bed rooms",
+        "bath":"2 bath room",
+        "location":"30/B California, USA",
+        "price": "$320",
+        "img": "https://i.ibb.co/LrtvB0r/Rectangle-396.png",
+        "imgDetail": {
+            "num1" : "https://i.ibb.co/d4bVs1J/Rectangle-407.png",
+            "num2" : "https://i.ibb.co/98jQrVy/Rectangle-409.png",
+            "num3" : "https://i.ibb.co/spfY9d9/Rectangle-410.png",
+            "num4" : "https://i.ibb.co/zZ9G35f/singlebed.jpg",
+            "num5" : "https://i.ibb.co/QCyy8sV/doublebed.jpg"
+        },
+        "details": {
+            "PropertyDetail" : "3000 sq-ft, 3 Bedroom, Semi-furnished, Luxurious, South facing apartment for rent in California, USA",
+            "MoreInfo" : "Family rooms are the largest rooms in our hotel and can accommodate up to 5 guests. Split into two sections, you'll find a queen bed in one and either a single bed or two twin beds in the other. Depending on the configuration, these rooms are either 35 or 40 sq m. Amenities include: Shower Telephone Safe Mini-fridge Satellite LCD TVs (one in each section) Seating unit Hair dryer Free WiFi"
+        }
+    },
+    {   
+        "id": 3,
+        "title": "New York Plaza",
+        "room":"3 Bed rooms",
+        "bath":"2 bath room",
+        "location":"28/A New York, USA",
+        "price": "$320",
+        "img": "https://i.ibb.co/MM0j6zT/Rectangle-398.png",
+        "imgDetail": {
+            "num1" : "https://i.ibb.co/d4bVs1J/Rectangle-407.png",
+            "num2" : "https://i.ibb.co/98jQrVy/Rectangle-409.png",
+            "num3" : "https://i.ibb.co/spfY9d9/Rectangle-410.png",
+            "num4" : "https://i.ibb.co/zZ9G35f/singlebed.jpg",
+            "num5" : "https://i.ibb.co/QCyy8sV/doublebed.jpg"
+        },
+        "details": {
+            "PropertyDetail" : "3000 sq-ft, 3 Bedroom, Semi-furnished, Luxurious, South facing apartment for rent in New York, USA",
+            "MoreInfo" : "Family rooms are the largest rooms in our hotel and can accommodate up to 5 guests. Split into two sections, you'll find a queen bed in one and either a single bed or two twin beds in the other. Depending on the configuration, these rooms are either 35 or 40 sq m. Amenities include: Shower Telephone Safe Mini-fridge Satellite LCD TVs (one in each section) Seating unit Hair dryer Free WiFi"
+        }
+    },
+    {   
+        "id": 4,
+        "title": "Pennsylvania Plaza",
+        "room":"3 Bed rooms",
+        "bath":"2 bath room",
+        "location":"32/A Pennsylvania, USA",
+        "price": "$320",
+        "img": "https://i.ibb.co/qCTvMTC/Rectangle-403.png",
+        "imgDetail": {
+            "num1" : "https://i.ibb.co/d4bVs1J/Rectangle-407.png",
+            "num2" : "https://i.ibb.co/98jQrVy/Rectangle-409.png",
+            "num3" : "https://i.ibb.co/spfY9d9/Rectangle-410.png",
+            "num4" : "https://i.ibb.co/zZ9G35f/singlebed.jpg",
+            "num5" : "https://i.ibb.co/QCyy8sV/doublebed.jpg"
+        },
+        "details": {
+            "PropertyDetail" : "3000 sq-ft, 3 Bedroom, Semi-furnished, Luxurious, South facing apartment for rent in Pennsylvania, USA",
+            "MoreInfo" : "Family rooms are the largest rooms in our hotel and can accommodate up to 5 guests. Split into two sections, you'll find a queen bed in one and either a single bed or two twin beds in the other. Depending on the configuration, these rooms are either 35 or 40 sq m. Amenities include: Shower Telephone Safe Mini-fridge Satellite LCD TVs (one in each section) Seating unit Hair dryer Free WiFi"
+        }
+    },
+    {   
+        "id": 5,
+        "title": "Texas Plaza",
+        "room":"3 Bed rooms",
+        "bath":"2 bath room",
+        "location":"32/A Texas, USA",
+        "price": "$320",
+        "img": "https://i.ibb.co/nD4RGK3/Rectangle-404.png",
+        "imgDetail": {
+            "num1" : "https://i.ibb.co/d4bVs1J/Rectangle-407.png",
+            "num2" : "https://i.ibb.co/98jQrVy/Rectangle-409.png",
+            "num3" : "https://i.ibb.co/spfY9d9/Rectangle-410.png",
+            "num4" : "https://i.ibb.co/zZ9G35f/singlebed.jpg",
+            "num5" : "https://i.ibb.co/QCyy8sV/doublebed.jpg"
+        },
+        "details": {
+            "PropertyDetail" : "3000 sq-ft, 3 Bedroom, Semi-furnished, Luxurious, South facing apartment for rent in Texas, USA",
+            "MoreInfo" : "Family rooms are the largest rooms in our hotel and can accommodate up to 5 guests. Split into two sections, you'll find a queen bed in one and either a single bed or two twin beds in the other. Depending on the configuration, these rooms are either 35 or 40 sq m. Amenities include: Shower Telephone Safe Mini-fridge Satellite LCD TVs (one in each section) Seating unit Hair dryer Free WiFi"
+        }
+    },
+    {   
+        "id": 6,
+        "title": "Florida Resort",
+        "room":"3 Bed rooms",
+        "bath":"2 bath room",
+        "location":"32/A Florida, USA",
+        "price": "$320",
+        "img": "https://i.ibb.co/Z2ZMSGH/Rectangle-405.png",
+        "imgDetail": {
+            "num1" : "https://i.ibb.co/d4bVs1J/Rectangle-407.png",
+            "num2" : "https://i.ibb.co/98jQrVy/Rectangle-409.png",
+            "num3" : "https://i.ibb.co/spfY9d9/Rectangle-410.png",
+            "num4" : "https://i.ibb.co/zZ9G35f/singlebed.jpg",
+            "num5" : "https://i.ibb.co/QCyy8sV/doublebed.jpg"
+        },
+        "details": {
+            "PropertyDetail" : "3000 sq-ft, 3 Bedroom, Semi-furnished, Luxurious, South facing apartment for rent in Florida, USA",
+            "MoreInfo" : "Family rooms are the largest rooms in our hotel and can accommodate up to 5 guests. Split into two sections, you'll find a queen bed in one and either a single bed or two twin beds in the other. Depending on the configuration, these rooms are either 35 or 40 sq m. Amenities include: Shower Telephone Safe Mini-fridge Satellite LCD TVs (one in each section) Seating unit Hair dryer Free WiFi"
+        }
+    }
+]

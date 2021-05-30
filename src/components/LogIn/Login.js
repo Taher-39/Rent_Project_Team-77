@@ -1,6 +1,6 @@
 import React from 'react';
 import './login.css';
-
+import google from './images/Google__G__Logo.svg.png';
 const Login = () => {
     return (
         <div>
@@ -16,13 +16,7 @@ const Login = () => {
                                 <a class="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/about">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/service">Service</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/contact">Contact</a>
+                                <a class="nav-link" href="/">Service</a>
                             </li>
                         </ul>
                     </div>
@@ -33,7 +27,7 @@ const Login = () => {
                     <div className="input-form">
                         <h4 className="">Login</h4>
                         <div className="mt-4 mb-4">
-                            <input placeholder="Username or Email" type="text" />
+                            <input placeholder="Email" type="text" />
                         </div>
                         <div className="mb-4">
                             <input placeholder="Password" type="text" />
@@ -48,8 +42,11 @@ const Login = () => {
                 <div className="border border-secondary" style={{ display: "inline-block", width: "150px", height: "1px" }}></div>
             </div>
             <div className="mt-4">
-                <div>
-
+                <div className="google-logo border d-flex">
+                    <img src={google} alt="" />
+                    <div className="google-text pt-1">
+                        <span className="align-middle fw-bold">Continue with google</span> 
+                    </div>
                 </div>
                 <div>
 
